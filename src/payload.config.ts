@@ -22,6 +22,7 @@ export default buildConfig({
     },
   },
   collections: [Users, Media, Categories],
+  // cookiePrefix: "silkroute", // If you want to change the cookie prefix
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "",
   typescript: {
